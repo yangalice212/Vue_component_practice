@@ -68,7 +68,7 @@
       <pagination :page="pagination" @get-data="getData"></pagination>
     </div>
 
-    <product-modal :temp-product="tempProduct" @update-product="updateProduct"></product-modal>
+    <product-modal :temp-product="tempProduct" @update-product="updateProduct" :is-new="isNew"></product-modal>
     <del-product-modal :temp-product="tempProduct" @del-product="delProduct"></del-product-modal>
 
   </div>
